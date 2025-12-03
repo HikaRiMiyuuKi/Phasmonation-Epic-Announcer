@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 Gamefree-announce bot.py
+python3 main.py
