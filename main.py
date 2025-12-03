@@ -4,7 +4,7 @@ import requests
 import datetime
 import pytz
 import os
-TOKEN = os.getenv("MTQ0MTk3NzQyODczNzEzMDYyOA.Ge9AtN.nb-nI92F8EnIWc9qGfC8bm7sGZ07kpw9tTdJZs")
+TOKEN = os.getenv("TOKEN")
 
 
 
@@ -85,5 +85,6 @@ async def on_ready():
 
 
 bot.run(TOKEN)
+
 
 
