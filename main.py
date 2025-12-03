@@ -3,8 +3,10 @@ from discord.ext import commands, tasks
 import requests
 import datetime
 import pytz
+import os
 
-TOKEN = "MTQ0MTk3NzQyODczNzEzMDYyOA.Ge9AtN.nb-nI92F8EnIWc9qGfC8bm7sGZ07kpw9tTdJZs"
+
+TOKEN = os.getenv("TOKEN")
 CHANNEL_ID = 1445631237258477683
 
 intents = discord.Intents.default()
@@ -82,3 +84,4 @@ async def on_ready():
 
 
 bot.run(TOKEN)
+
